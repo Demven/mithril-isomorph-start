@@ -1,8 +1,9 @@
 {
-  "name": "mithril-isomorph",
-  "version": "0.0.1",
+  "name": "mithril-isomorph-start",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": "https://github.com/Demven/mithril-isomorph-start",
   "scripts": {
     "postinstall": "gulp",
     "start": "node build/server/server.js",
