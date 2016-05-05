@@ -1,0 +1,24 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "jquery": true,
+    "node": true
+  },
+  "ecmaFeatures": {
+    "experimentalObjectRestSpread": true
+  },
+  "rules": {
+    "max-len": 0,
+    // disallow unnecessary .call() and .apply()
+    "no-useless-call": 2,
+    // disallow unnecessary concatenation of literals or template literals
+    "no-useless-concat": 2,
+    // Avoid code that looks like two expressions but is actually one
+    "no-unexpected-multiline": 2,
+    "react/react-in-jsx-scope": 0,
+    "react/no-unknown-property": 0,
+    "arrow-body-style": 1
+  }
+}

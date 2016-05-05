@@ -1,0 +1,47 @@
+{
+  "name": "mithril-isomorph",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gulp",
+    "start": "node build/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Salnikov dmitry_salnikov@protonmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-mjsx": "^4.1.1",
+    "babel-preset-es2015": "^6.6.0",
+    "babelify": "^7.2.0",
+    "basic-auth": "^1.0.3",
+    "body-parser": "^1.15.0",
+    "browserify": "^13.0.0",
+    "compression": "^1.6.1",
+    "cookie-parser": "^1.4.1",
+    "del": "^2.2.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-gzip": "^1.2.0",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-rev": "^7.0.0",
+    "gulp-rev-replace": "^0.4.3",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-stylus": "^2.3.1",
+    "mithril": "^0.2.0",
+    "mithril-node-render": "^0.5.0",
+    "run-sequence": "^1.1.5",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^8.0.0",
+    "eslint-plugin-import": "^1.6.1",
+    "eslint-plugin-jsx-a11y": "^1.0.4",
+    "eslint-plugin-react": "^5.0.1"
+  }
+}

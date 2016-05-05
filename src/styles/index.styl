@@ -1,0 +1,30 @@
+@require 'base/*'
+
+@require '../../src/js/components/TodoApp/TodoApp'
+@require '../../src/js/components/HelloWorld/HelloWorld'
+@require '../../src/js/components/Footer/Footer'
+
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}
+
+html
+  font-size: 10px
+  height: 100%
+  body
+    overflow-x: hidden
+    height: 100%
+    &.prevent-scroll
+      overflow: hidden
+      pointer-events: none
+
+*::selection
+  color: #fff;
+  background: $color-base;
+
+
+main
+  width: 100vw
+  background: #fff

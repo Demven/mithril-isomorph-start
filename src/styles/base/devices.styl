@@ -1,0 +1,29 @@
+$mobile-screen = 690px
+$tablet-screen = 995px
+$tablet-wide-screen = 1024px
+$desktop-screen = 1440px
+
+$screen = "only screen"
+$mobile = "only screen and (max-width: " + $mobile-screen + ")"
+$mobile-portrait = $mobile + " and (orientation: portrait)"
+$mobile-landscape = $mobile + " and (orientation: landscape)"
+$tablet = "only screen and (min-width: " + ($mobile-screen + 1px) + ") and (max-width: " + $tablet-screen + ")"
+$tablet-portrait = $tablet + " and (orientation: portrait)"
+$tablet-wide = "only screen and (min-width: " + ($tablet-screen + 1px) + ") and (max-width: " + $tablet-wide-screen + ")"
+$tablet-any = "only screen and (min-width: " + ($mobile-screen + 1px) + ") and (max-width: " + $tablet-wide-screen + ")"
+$desktop = "only screen and (min-width: " + ($tablet-wide-screen + 1px) + ") and (max-width: " + $desktop-screen + ")"
+$desktop-wide = "only screen and (min-width: " + ($desktop-screen + 1px) + ")"
+$desktop-any = "only screen and (min-width: " + ($tablet-wide-screen + 1px) + ")"
+$desktop-and-tablet-wide = "only screen and (min-width: " + ($tablet-screen + 1px) + ")"
+$landscape = "only screen and (orientation: landscape)"
+$portrait = "only screen and (orientation: portrait)"
+
+$all-less-than-desktop = "only screen and (max-width: " +$desktop-screen + ")"
+
+// INFO
+// @media (min-width:320px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
+// @media (min-width:480px) { /* smartphones, Android phones, landscape iPhone */ }
+// @media (min-width:600px) { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+// @media (min-width:801px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+// @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+// @media (min-width:1281px) { /* hi-res laptops and desktops */ }
