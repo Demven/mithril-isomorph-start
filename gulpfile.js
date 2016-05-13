@@ -130,7 +130,7 @@ gulp.task('watch', function () {
   gulp.watch('src/styles/**', function () {
     runSequence('build:css', 'rev:css:manifest', 'rev:css:replace');
   });
-  gulp.watch('src/components/**/*.styl', function () {
+  gulp.watch('src/js/components/**/*.styl', function () {
     runSequence('build:css', 'rev:css:manifest', 'rev:css:replace');
   });
 
