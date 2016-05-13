@@ -3,6 +3,8 @@
 This is a complete production-ready isomorphic web-application for quick start with Mithril.js.
 It consist of two simple pages: HelloWorld and ToDo app.
 
+If you're looking for something more easy to start with - try this simple app https://github.com/Demven/mithril-es6-start
+
 <img src="https://hsto.org/files/862/67c/a0d/86267ca0d43d4356aec0b4f4ffcbcc82.png"/>
 
 Use this application as a boilerplate for your own isomorphic mithril SPA application with ES6 and a lot of awesome features.
